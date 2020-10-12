@@ -214,7 +214,7 @@ class WeekCalendar extends Component {
           ref={this.list}
           data={items}
           extraData={extraData}
-          style={this.style.container}
+          style={[this.style.container, {marginLeft:-15, marginRight:-15}]}
           horizontal
           showsHorizontalScrollIndicator={false}
           pagingEnabled
